@@ -1,0 +1,22 @@
+# Pubblica una Release quando arriva un tag v* su questo ramo:
+# prende l'installer in installer/ e lo allega, con le note in RELEASE_NOTES.md.
+name: Release
+on:
+  push:
+    tags: ["v*"]
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Crea la Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          ver="${GITHUB_REF_NAME#v}"
+          exe="installer/Accordo432-Setup-${ver}.exe"
+          test -f "$exe" || { echo "manca $exe"; exit 1; }
+          gh release create "$GITHUB_REF_NAME" "$exe" --repo "$GITHUB_REPOSITORY" \
+            --title "Accordo 432 $GITHUB_REF_NAME" --notes-file RELEASE_NOTES.md --latest
