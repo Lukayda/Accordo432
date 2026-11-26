@@ -11,6 +11,9 @@
 - Latency is about 62 ms, which is fine for music, video and most games.
 - Lives in the tray near the clock, with an optional start with Windows.
 
+> 💬 **Found a bug or have an idea?** Tell us in **[Issues](https://github.com/Lukayda/Accordo432/issues/new)**: every report helps shape the next update.
+> *Hai trovato un problema o hai un'idea? Scrivilo nelle [Issues](https://github.com/Lukayda/Accordo432/issues/new): ogni segnalazione aiuta il prossimo aggiornamento.*
+
 ## Download and install
 
 1. Open **[Releases](https://github.com/Lukayda/Accordo432/releases/latest)** and download `Accordo432-Setup-x.y.z.exe`.
@@ -42,9 +45,9 @@ Settings → Apps → **Accordo 432** → Uninstall. Audio devices go back to no
 - Very loud masters (many modern metal or EDM tracks) can keep PEAK GUARD lit even at 440 Hz / 0 dB. It is only catching samples that would clip anyway.
 - This project makes no health claims about 432 Hz. It just gives you the choice of tuning.
 
-## Found a problem?
+## Problems and suggestions
 
-Open an **[Issue](https://github.com/Lukayda/Accordo432/issues/new)** and include your Windows version, your audio device (headphones, speakers, Bluetooth, USB card) and what happens. Fixes come out as new versions in Releases.
+Something not working, or an idea to make Accordo 432 better? Please open an **[Issue](https://github.com/Lukayda/Accordo432/issues/new)**. You don't need to be technical: just describe it in your own words, in English or Italian. For a problem, it helps to include your Windows version, your audio device (headphones, speakers, Bluetooth, USB card) and what happens. Every report is read, and fixes and improvements come out as new versions in Releases. The app tells you when a new one is ready.
 
 ## Italiano
 
@@ -53,7 +56,7 @@ Open an **[Issue](https://github.com/Lukayda/Accordo432/issues/new)** and includ
 - **Installare:** scarica l'installer da **[Releases](https://github.com/Lukayda/Accordo432/releases/latest)** e aprilo: non fa domande. Se compare "PC protetto", clicca **Ulteriori informazioni → Esegui comunque** (l'app non è firmata con un certificato a pagamento).
 - **Usare:** il pulsante ON/OFF passa dal vivo tra 432 e 440. La manopola GAIN regola il volume (doppio clic = 0 dB). Clic destro sull'icona vicino all'orologio per il menu, compresa la voce "Start with Windows".
 - **Aggiornare:** l'app ti avvisa quando esce una versione nuova.
-- **Problemi:** apri una [Issue](https://github.com/Lukayda/Accordo432/issues/new).
+- **Problemi o idee:** scrivili nelle **[Issues](https://github.com/Lukayda/Accordo432/issues/new)**, anche in italiano e senza termini tecnici. Per un problema aiuta indicare versione di Windows, dispositivo audio e cosa succede. Ogni segnalazione viene letta e le correzioni arrivano con i prossimi aggiornamenti.
 - **Disinstallare:** Impostazioni → App → Accordo 432.
 
 ## License
